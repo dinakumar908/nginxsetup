@@ -23,7 +23,7 @@ resource "aws_security_group" "nginxsecurity" {
 }
 
 resource "aws_instance" "myec2" {
-  ami = "ami-0b0af3577fe5e3532"
+  ami = "ami-0aeeebd8d2ab47354"
   instance_type = "t2.micro"
   key_name = "keypair"
   security_groups = [aws_security_group.nginxsecurity.name]
