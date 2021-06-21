@@ -44,7 +44,7 @@ provisioner "remote-exec" {
 connection {
        type     = "ssh"
        user     = "ec2-user"
-       private_key = file("./keypair.pem")
+       private_key = keypair.pem
        host     = self.public_ip
      }
 
