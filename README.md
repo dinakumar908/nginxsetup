@@ -3,11 +3,13 @@
 Pre-requisites:
 
 AWS Account
+
 github account
 
 Provison a server in AWS
 
 1. Installing Java
+
  yum install -y java-1.8.0-openjdk
 
 2. Installing jenkins (jenkins.io)
